@@ -1,0 +1,24 @@
+//Exercício 06 Módulo 01 Conversor de medidas
+//O program solicitará ao usuário uma distância em metros e o prgrama 
+//fará a conversão em Km, Hm, Dam, dm, cm e mostrará na tela.
+//Autora Fernanda de Almeida Guerra.
+
+programa
+{
+	
+	funcao inicio()
+	{
+		real distancia
+		
+		escreva ("Distância em metros: ")
+		leia(distancia)
+		
+		escreva((distancia/1000)+" km\n" )
+		escreva((distancia/100)+" Hm\n")
+		escreva((distancia/10)+" Dam\n")
+		escreva((distancia*10)+" dm\n")
+		escreva((distancia*100)+" cm\n")
+		escreva((distancia*1000)+" mm\n")
+		
+	}
+}
