@@ -1,0 +1,29 @@
+//Exercicio 11 Modulo 01 Analisando sua cidade
+//O programam solicitará ao usuário o nome da cidade e mostrará na tela o nome da cidade
+//que o usuário digitou informando a peimeira letra e o número de caracteres que a
+//palavra possui e utilizará a biblioteca Texto - caixa alta
+//Autora Fernanda de Almeida Guerra.
+
+programa
+{
+	inclua biblioteca Texto --> txt
+	
+	funcao inicio()
+	{
+
+		cadeia cidade		
+	
+		escreva("Em qual cidade você mora? ")
+		leia(cidade)
+
+		cadeia grande = txt.caixa_alta(cidade)
+		//cadeia pequena = txt.caixa_baixa(cidade)
+		
+		escreva("\n-------------ANALISANDO SUA CIDADE-------------\n\n")
+		escreva("\nVocê mora na cidade "+grande)
+		escreva("\nA primeira letra é "+txt.obter_caracter(grande, 0))
+		escreva("\nTem "+txt.numero_caracteres(cidade)+" caracteres.")
+		escreva("\n\n")
+		
+	}
+}
