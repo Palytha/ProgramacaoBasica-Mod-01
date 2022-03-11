@@ -1,0 +1,29 @@
+//Exercicio 009 Aumento Salarial
+//O programa solicitará ao usuário o nome do funcionário, o salário o valor do reajuste em porcentagem.
+//imprimindo na tela os seguintes dados do funcionário Nome, salário antigo, quanto
+//foi o reajuste e o valor do novo sálário.
+//Autora Fernanda de Almeida Guerra
+
+programa
+{
+	
+	funcao inicio()
+	{
+		real salario, reajuste, novosalario
+		cadeia funcionario
+		
+		escreva("Nome do funcionário: ")
+		leia(funcionario)
+		escreva("\nSalário R$ ")
+		leia(salario)
+		escreva("\nReajuste (%):")
+		leia(reajuste)
+
+		novosalario = (salario + (salario*reajuste)/100)
+
+		escreva("\n------------RESULTADO-------------\n\n")
+		escreva(funcionario+" recebia R$ "+salario+" e depois de ganhar "+reajuste+"% de aumento, vai passar a ganhar "+novosalario+ "\n\n\n")
+		
+		
+	}
+}
