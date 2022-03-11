@@ -1,0 +1,23 @@
+//Exercicio 08 Modulo 01 Desconto no Produto.
+//O programa solicitará ao usuário o preço do produto e calculará um desconto de 
+//5%, e mostrará o valor atualizado com o desconto.
+//Utilizará a biblioteca Matemática para arredondar o valor.
+//Autora Fernanda de Almeida Guerra.
+
+programa
+{
+	inclua biblioteca Matematica --> mat
+	
+	funcao inicio()
+	{
+		real preco
+		
+		escreva("Qual é o preço do produto? R$ ")
+		leia(preco)
+
+		preco = (preco - (preco*5)/100)
+		preco = mat.arredondar(preco, 2)
+
+		escreva("Com o desconto de 5%, o produto sai por R$ "+preco)
+	}
+}
