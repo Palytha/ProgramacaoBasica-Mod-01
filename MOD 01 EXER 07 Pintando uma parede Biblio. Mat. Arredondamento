@@ -1,0 +1,30 @@
+//Exercicio 07 Modulo 01 Pintando uma parede
+//O programa solicitara ao usuário a largura da parede e a altura
+//com isso o programa calculará a área da parede e informará ao usuário 
+//quantos litros de tinta gastará para pintá-la. Lembrando que o programa 
+//utilizará a seguinte informação hipotética em que: Um litro de tinta cobre 2m quadrados.
+//Utilizaremos a inclusão da Bibioteca Matemática para efetuar o arredondamento.
+//Autora Fernanda de Almeida Guerra.
+
+programa
+{
+	inclua biblioteca Matematica --> mat
+	funcao inicio()
+	{
+		real altura, largura, area, litros
+		
+		escreva("Qual a largura da parede? ")
+		leia(largura)
+		escreva("Qual a altura da parede? ")
+		leia(altura)
+
+		area = (largura*altura)
+
+		escreva("Uma parede "+largura+" X "+altura+" tem uma área "+area+" metros quadrados")
+		litros = (area/2)
+		litros = mat.arredondar(litros, 1)
+
+		
+		escreva("\nPrecisamos de "+litros+" litros para pintar.")
+	}
+}
