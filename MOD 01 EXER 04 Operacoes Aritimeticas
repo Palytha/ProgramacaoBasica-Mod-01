@@ -1,0 +1,31 @@
+//Exercício 04 Módulo 01 Operações Aritmeticas
+//utilizando a biblioteca que transforma inteiro em real, --> Coloca um pelido
+//Autor(a):Fernanda de Almeida Guerra
+//O programa solicitará ao usuário dois números e o programam calculará 
+//a soma, subtração, produto, divisão real e a divisão com resto 
+//e mostrará o resultado na tela.
+programa
+{	//Inclusão de biblioteca
+	inclua biblioteca Tipos --> t
+	
+	funcao inicio()
+	{	
+		//Declaração de Variáveis
+		inteiro n1, n2
+		real divR 
+		//Daddos de Entrada
+		escreva("Digite o primeiro número: ")
+		leia(n1)
+		escreva("Digite o segundo número: ")
+		leia(n2)
+		//Dados de Saída
+		escreva("\nSoma = " +(n1+n2))
+		escreva("\nSubtração = " +(n1-n2))
+		escreva("\nProduto = " +(n1*n2))
+		escreva("\nDivisão Inteira = " +(n1/n2))
+		escreva("\nDivisão Real = " + (t.inteiro_para_real(n1)/t.inteiro_para_real(n2)))
+		escreva("\nResto da divisão = "+(n1%n2))
+		escreva("\n\n")
+		
+	}
+}
