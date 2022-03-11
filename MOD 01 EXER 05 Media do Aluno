@@ -1,0 +1,23 @@
+//Exercício 05 Módulo 01 Média do Aluno
+//O programa solicitará duas notas do aluno e o programa calculará a 
+//média final do aluno.
+//Autora Fernanda de Almeida Guerra
+
+programa
+{
+		
+	funcao inicio()
+	{	
+		
+		real not1, not2, media
+		
+		escreva ("Digite a primeira nota: ")
+		leia (not1)
+		escreva ("Digite a segunda nota: ")
+		leia (not2)
+
+		escreva ("\nAs notas do Aluno foram: " +not1+ " e " +not2)
+		escreva ("\nA média final foi: "+ ((not1+not2)/2) )
+		escreva("\n\n")
+	}
+}
