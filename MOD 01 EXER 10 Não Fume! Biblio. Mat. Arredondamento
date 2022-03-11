@@ -1,0 +1,28 @@
+//Exercicio 10 Módulo 01 Não fume!
+//O programa solicitara ao usuário quanto tempo (em anos ) que é fumante,e quantos cigarros fuma por dia
+//o programa calculará quantos dias de vida perdeu por fumar. Levando em conta q seguinte informação: 
+//Cada cigarro diminui 10 min de vida.
+//Autora Fernanda de Almeida Guerra
+
+programa
+{
+	inclua biblioteca Matematica --> mat
+	
+	funcao inicio()
+	{	
+		inteiro anos, cigar
+		real dias, tcigar
+		
+		escreva("Há quantos anos você fuma? ")
+		leia(anos)
+		escreva("Quantos cigarros você fuma por dia? ")
+		leia(cigar)
+
+		tcigar = ( anos * (365*cigar))
+		dias =  (tcigar/144)
+		
+		escreva("Você já fumou o total de "+tcigar+" cigarros!")
+		escreva("\nEstima-se que você já perdeu "+mat.arredondar(dias, 2)+" dias de vida!")
+		escreva("\n\n")
+	}
+}
