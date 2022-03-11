@@ -1,7 +1,8 @@
 //Exercício 006 Módulo 01 Conversor de medidas
-//Autora Fernanda de Almeida Guerra 
 //O program solicitará ao usuário uma distância em metros e o prgrama 
 //fará a conversão em Km, Hm, Dam, dm, cm e mostrará na tela.
+//Autora Fernanda de Almeida Guerra.
+
 programa
 {
 	
