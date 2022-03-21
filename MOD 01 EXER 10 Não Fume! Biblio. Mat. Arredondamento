@@ -1,8 +1,10 @@
 /*Módulo 01 Exercício 10 Não fume!
-  O programa solicitara ao usuário quanto tempo (em anos ) que o usuário é fumante e quantos cigarros fuma por dia.
+  O programa solicitara ao usuário:
+  - Quanto tempo (em anos) que o usuário é fumante 
+  - Quantos cigarros fuma por dia.
   O programa calculará:
   - quantos dias de vida perdeu por fumar.
-  Levando em conta a seguinte informação: Cada cigarro diminui 10 min de vida.
+  Levando em conta a seguinte informação hipotética: Cada cigarro diminui 10 min de vida.
   Autora Fernanda de Almeida Guerra.*/
 
 programa
