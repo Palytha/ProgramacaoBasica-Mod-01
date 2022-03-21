@@ -1,7 +1,13 @@
 /*Módulo 01 Exercício 09 Aumento Salarial
-  O programa solicitará ao usuário o nome do funcionário, o salário o valor do reajuste em porcentagem.
-  imprimindo na tela os seguintes dados do funcionário Nome, salário antigo, quanto
-  foi o reajuste e o valor do novo sálário.
+  O programa solicitará ao usuário:
+  - O nome do funcionário
+  - O salário
+  - O valor do reajuste em porcentagem
+  E irá mostrar na tela os seguintes dados desse funcionário 
+  - Nome
+  - Salário antigo
+  - Quanto foi o reajuste 
+  - O valor do novo sálário.
   Autora Fernanda de Almeida Guerra.*/
 
 programa
