@@ -1,6 +1,10 @@
 /*Módulo 01 Exercício 06 Conversor de medidas
-  O program solicitará ao usuário uma distância em metros e o prgrama 
-  fará a conversão em Km, Hm, Dam, dm, cm e mostrará na tela.
+  O program solicitará ao usuário uma distância em metros em seguida mostrará na tela a conversão em:
+  - Km
+  - Hm
+  - Dam 
+  - dm 
+  - cm
   Autora Fernanda de Almeida Guerra.*/
 
 programa
