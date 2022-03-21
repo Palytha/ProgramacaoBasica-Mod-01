@@ -1,8 +1,8 @@
-//Exercicio 08 Modulo 01 Desconto no Produto.
-//O programa solicitará ao usuário o preço do produto e calculará um desconto de 
-//5%, e mostrará o valor atualizado com o desconto.
-//Utilizará a biblioteca Matemática para arredondar o valor.
-//Autora Fernanda de Almeida Guerra.
+/*Modulo 01 Exercício 08 Desconto no Produto.
+  O programa solicitará ao usuário o preço do produto e calculará um desconto de 
+  5%, e mostrará o valor atualizado com o desconto.
+  Utilizará a biblioteca Matemática para arredondar o valor.
+  Autora Fernanda de Almeida Guerra.*/
 
 programa
 {
