@@ -1,9 +1,9 @@
-//Exercício 04 Módulo 01 Operações Aritmeticas
-//utilizando a biblioteca que transforma inteiro em real, --> Coloca um pelido
-//O programa solicitará ao usuário dois números e o programam calculará 
-//a soma, subtração, produto, divisão real e a divisão com resto 
-//e mostrará o resultado na tela.
-//Autora Fernanda de Almeida Guerra
+/*Módulo 01 Exercício 04 Operações Aritmeticas
+  utilizando a biblioteca que transforma inteiro em real, --> Coloca um pelido
+  O programa solicitará ao usuário dois números e o programam calculará 
+  a soma, subtração, produto, divisão real e a divisão com resto 
+  e mostrará o resultado na tela.
+  Autora Fernanda de Almeida Guerra*/
 
 programa
 {	//Inclusão de biblioteca
