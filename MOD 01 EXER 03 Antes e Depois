@@ -1,7 +1,7 @@
-/*Exercício 03 Módulo 01 Antes e Depois
+/*Módulo 01 Exercício 03 Antes e Depois
   O usuário digitará um número e o programa mostrará quem é o 
   antecessor e o sucessor desse número.
-  Autor(a) Fernanda de Almeida Guerra.*/
+  Autora Fernanda de Almeida Guerra.*/
 
 programa
 {
