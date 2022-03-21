@@ -1,8 +1,8 @@
-//Exercicio 009 Aumento Salarial
-//O programa solicitará ao usuário o nome do funcionário, o salário o valor do reajuste em porcentagem.
-//imprimindo na tela os seguintes dados do funcionário Nome, salário antigo, quanto
-//foi o reajuste e o valor do novo sálário.
-//Autora Fernanda de Almeida Guerra
+/*Exercicio 009 Aumento Salarial
+  O programa solicitará ao usuário o nome do funcionário, o salário o valor do reajuste em porcentagem.
+  imprimindo na tela os seguintes dados do funcionário Nome, salário antigo, quanto
+  foi o reajuste e o valor do novo sálário.
+  Autora Fernanda de Almeida Guerra.*/
 
 programa
 {
