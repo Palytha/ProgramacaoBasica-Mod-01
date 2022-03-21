@@ -1,8 +1,12 @@
-//Exercicio 11 Modulo 01 Analisando sua cidade
-//O programam solicitará ao usuário o nome da cidade e mostrará na tela o nome da cidade
-//que o usuário digitou informando a peimeira letra e o número de caracteres que a
-//palavra possui e utilizará a biblioteca Texto - caixa alta
-//Autora Fernanda de Almeida Guerra.
+/*Modulo 01 Exercício 11 Analisando sua cidade
+  Utilizaremos a biblioteca Texto - Caixa Alta para deixar todos os caracteres em caixa alta
+  O programam solicitará ao usuário:
+  - O nome da cidade 
+  Mostrará na tela:
+  - O nome da cidade que o usuário digitou 
+  - Mostrará a peimeira letra 
+  - A quantidade de caracteres que a cidade possui 
+  Autora Fernanda de Almeida Guerra.*/
 
 programa
 {
