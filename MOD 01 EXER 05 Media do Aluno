@@ -1,7 +1,7 @@
-//Exercício 05 Módulo 01 Média do Aluno
-//O programa solicitará duas notas do aluno e o programa calculará a 
-//média final do aluno.
-//Autora Fernanda de Almeida Guerra
+/*Módulo 01 Exercício 05 Média do Aluno
+  O programa solicitará duas notas do aluno e o programa calculará a 
+  média final do aluno.
+  Autora Fernanda de Almeida Guerra.*/
 
 programa
 {
