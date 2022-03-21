@@ -1,6 +1,7 @@
 /*Módulo 01 Exercício 03 Antes e Depois
-  O usuário digitará um número e o programa mostrará quem é o 
-  antecessor e o sucessor desse número.
+  O usuário digitará um número e o programa mostrará
+  - O antecessor 
+  - O sucessor desse número.
   Autora Fernanda de Almeida Guerra.*/
 
 programa
